@@ -1,0 +1,13 @@
+POST /api/endpoint HTTP/1.1
+Host: example.com
+Content-Type: application/json
+User-Agent: MyApp/1.0
+Authorization: Bearer your_token_here
+Content-Length: 203
+
+{
+  "name": "John Doe",
+  "age": 30,
+  "isActive": true,
+  "hobbies": ["reading", "swimming", "eyJuYW1lIjoiSm9obiBEb2UiLCJhZ2UiOjMwLCJpc0FjdGl2ZSI6dHJ1ZSwiaG9iYmllcyI6WyJyZWFkaW5nIiwic3dpbW1pbmciXX0="]
+}
