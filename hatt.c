@@ -157,7 +157,7 @@ int main(int argc, char *argv[]) {
     while((next_option = getopt_long(argc, argv, short_options, long_options, NULL)) != -1) {
         switch (next_option) {
             case 'h' : print_usage(stdout, EXIT_SUCCESS);
-		       break;
+                       break;
             case 'u' : rules_filename = optarg;
                        break;
             case 'v' : verbose = 1;
@@ -165,7 +165,7 @@ int main(int argc, char *argv[]) {
             case 'd' : req_to_dump = atoi(optarg);
                        break;
             case '?' : print_usage(stderr, EXIT_FAILURE);
-		       break;
+                       break;
             default: abort();
         }
     }
